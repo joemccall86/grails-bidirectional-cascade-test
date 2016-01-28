@@ -1,6 +1,28 @@
 # grails-bidirectional-cascade-test
 A test grails application to explore the capabilities of cascading saves in a bidirectional domain model
 
+## To run the tests
+### Grails 2.4.5:
+```
+$ sdk use grails 2.4.5
+$ cd grails_2.4.5
+$ grails run-app integration:
+```
+
+### Grails 3.0.13:
+```
+$ sdk use grails 3.0.13
+$ cd grails_3.0.13
+$ grails run-app -integration
+```
+
+### Grails 3.1.0:
+```
+$ sdk use grails 3.1.0
+$ cd grails_3.1.0
+$ grails run-app -integration
+```
+
 ## The Issue
 We have a domain class called Team
 
